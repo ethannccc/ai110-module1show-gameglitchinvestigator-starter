@@ -8,7 +8,7 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
----
+The first time I ran it, the game would tell me lower and higher when I guessed a number until I either guessed the number or ran out of guesses. I ran out of guesses because the hints were incorrect. Two concrete bugs I noticed were the higher and lower hints were incorrect. The secret number was 24, but for some reason when I entered 10, it told me to go lower. Another bug I noticed was the range values for each difficulty. As you go higher the range should increase and the guess attempts should decrease, but the values for each difficulty seem out of place. The "Enter to Apply" functionality doesn't work, and the New Game button does not start a new game. Entering a non number also incorrectly reduces the number of attempts I have. Overall lots of bugs.
 
 ## 2. How did you use AI as a teammate?
 
