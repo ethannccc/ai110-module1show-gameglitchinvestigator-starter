@@ -16,7 +16,7 @@ The first time I ran it, the game would tell me lower and higher when I guessed 
 - Give one example of an AI suggestion that was correct (including what the AI suggested and how you verified the result).
 - Give one example of an AI suggestion that was incorrect or misleading (including what the AI suggested and how you verified the result).
 
----
+I used Copilot. An AI suggestion that was correct was the logic it gave me to properly reset the history. I verified by checking the code and running it in the app. I could tell it was going to work because it set history to an empty list, and attempts was set back to zero. An AI suggestion that was misleading was the logic that was causing the hint bug. It help fixed the alphabetical comparison of the secret number, but forgot to include the fixes about the print statements in Higher and Lower texts. I was able to run the program and determine the bug and went back to change it and then confirm the change.
 
 ## 3. Debugging and testing your fixes
 
@@ -25,7 +25,7 @@ The first time I ran it, the game would tell me lower and higher when I guessed 
   and what it showed you about your code.
 - Did AI help you design or understand any tests? How?
 
----
+I decided whether a bug was really fixed by running the tests in the test suite and also running the program in Streamlit to actually verify the changes. I made a new test in pytest and to test the alphabetic comparison fixes that Copilot added and it passed, which told me that the original code was faulty and the change I made was accurate. AI help me design the aforementioned test, and I double checked the make sure the tests that it generated was accurate. 
 
 ## 4. What did you learn about Streamlit and state?
 
