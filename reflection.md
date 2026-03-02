@@ -33,7 +33,7 @@ I decided whether a bug was really fixed by running the tests in the test suite 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 - What change did you make that finally gave the game a stable secret number?
 
----
+The secret number kept changing in the original app because Streamlit reran the entire Python page everytime someone entered a guess. I'd explain Streamlit reruns is like running a new lap after finishing your current lap with full energy. Session state would be like a water bottle that I would keep using between runs, they are variables that are able to share data between runs. The fix for a stable secret number was to wrap the number generation with a defensive if statement that checked and made sure the number was only called once.
 
 ## 5. Looking ahead: your developer habits
 
@@ -41,3 +41,5 @@ I decided whether a bug was really fixed by running the tests in the test suite 
   - This could be a testing habit, a prompting strategy, or a way you used Git.
 - What is one thing you would do differently next time you work with AI on a coding task?
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+I want to write more test cases and incorporate those into my code to test for edge cases and unexpected behaviors. I would make sure the things that AI is telling me is accurate before accepting the changes because there is some egregious code that is produced. This project made me doubt AI generated code more. There were more instances this time where AI generated poor code, not sure why that was the reason this time compared to the Tinker last time, but I needed to go back and fix bugs that was still present. There were definitely more nuanced and tiny bugs that you need to watch out for as a programmer because they appear to be accurate but actually has faulty logic.

@@ -26,12 +26,15 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+The game purpose is to produce a guessing game where the user will have to guess the secret number using higher and lower hints. The difficulty is selectable and will have a varying number of guesses and range of numbers.
 - [ ] Detail which bugs you found.
+There were lots of bugs including the higher and lower hints logic, the reset game logic not working properly, the ranges and attempt number being inaccurate, and the enter to apply functionality not working properly, the values not being updated for each difficulty.
 - [ ] Explain what fixes you applied.
+I applied fixes to fix the higher and lower logic and tested it with a test, I also adjusted the values for each difficulty, and finally fixed the logic with the reset game to properly reset your score and the history.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [ ] [![working guessing game](image.png)]
 
 ## 🚀 Stretch Features
 
